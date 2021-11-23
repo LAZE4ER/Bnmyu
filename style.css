@@ -1,0 +1,40 @@
+.as{
+    background-color: lightpink;
+  
+    display: flex;
+    justify-content: space-between;
+    padding: 0 16px 0 16px;
+    align-items: center;
+    
+}
+.logo{
+    margin: 0;
+}
+.items{
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+}
+@media (max-width: 1000px) {
+    .as{
+        display: block;
+    }
+    .logo{
+        text-align: center;
+    }
+    .items{
+        width: 60%;
+        margin: 0 auto;
+    }
+}
+@media(max-width: 512px){
+    .items{
+        display: block;
+    }
+    .m{
+        display: block;
+        text-align: center;
+        font-size: 20px;
+        margin-bottom: 12px;
+    }
+}
